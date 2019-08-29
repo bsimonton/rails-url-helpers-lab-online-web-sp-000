@@ -1,4 +1,4 @@
 class AddColumn < ActiveRecord::Base 
-  def change 
+  def change :students, :active, :boolean, 
   
 end 
