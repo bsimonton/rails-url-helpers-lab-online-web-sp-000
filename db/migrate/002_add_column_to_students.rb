@@ -1,4 +1,4 @@
-class AddColumn < ActiveRecord::Migration[4.2]
+class AddColumn < ActiveRecord::Migration
   def change :students, :active, :boolean, default:false 
   end 
   
